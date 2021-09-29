@@ -15,5 +15,17 @@ class TestCalc {
 	private Integer add(int a, int b) {
 		return a+b;
 	}
+	
+	@Test
+	public void testSubtract() {
+		int x= 1;
+		int y= 1;
+		assertEquals( subtract(x, y), 0);
+	}
+
+	private Integer subtract(int x, int y) {
+		return x+y;
+	}
+	
 
 }
