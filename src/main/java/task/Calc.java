@@ -7,6 +7,6 @@ public class Calc {
 	}
 	
 	public Integer subtract(int x, int y) {
-		return x+y;
+		return x-y;
 	}
 }

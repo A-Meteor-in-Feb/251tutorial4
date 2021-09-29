@@ -24,7 +24,7 @@ class TestCalc {
 	}
 
 	private Integer subtract(int x, int y) {
-		return x+y;
+		return x-y;
 	}
 	
 
